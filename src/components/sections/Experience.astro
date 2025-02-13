@@ -1,30 +1,22 @@
 ---
 import CardTimeLine from "../CardTimeLine.astro";
 import { experiencia } from "../../consts/experience";
+import IconWork from "../icons/Work.astro";
 ---
 
-<section class="w-11/12 m-auto flex flex-col gap-8 my-16 sm:my-32 sm:gap-16 sm:flex-row">
-  <article class="justify-center items-center flex-col flex sm:hidden">
-    <div class="">
+<section class="w-11/12 m-auto flex flex-col gap-8 my-16 sm:my-32 sm:gap-16 sm:flex-col">
+  <article class="items-center flex-col flex">
+    <div class="w-full flex gap-4">
+      <IconWork clase="size-10 sm:size-24" />
       <h4
-        class="font-bold family-title text-4xl text-[#FF003D]"
+        class="font-bold family-title text-4xl sm:text-8xl text-[#FF003D]"
         style="text-shadow: 2px 2px 15px #ff003c81;"
       >
         Experiencia
       </h4>
     </div>
   </article>
-  <article class="justify-center items-center flex-col hidden sm:flex">
-    <div class="-rotate-90 w-32 flex">
-      <h4
-        class="font-bold family-title text-8xl text-[#FF003D]"
-        style="text-shadow: 2px 2px 15px #ff003c81;"
-      >
-        Experiencia
-      </h4>
-    </div>
-  </article>
-  <article class="flex w-full">
+  <article class="flex">
     <div class="py-4 flex flex-col gap-16">
       {experiencia.map((exp) => <CardTimeLine {...exp} />)}
     </div>

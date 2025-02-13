@@ -16,12 +16,12 @@ export const experiencia = [
     ],
   },
   {
-    titulo: "Jefe de Proyecto | Desarrollador Full-Stack",
+    titulo: "Jefe de Proyecto, Desarrollador Full-Stack",
     empresa: "Start-Up TI Simulada",
     institucion: "Escuela Técnica N°29 D.E.06 'Reconquista de Buenos Aires'",
-    tipoContrato: "Contrato de formación",
+    tipoContrato: "Formación",
     periodo: "enero 2022",
-    ubicacion: "Argentina (Híbrido)",
+    ubicacion: "CABA, Argentina (Híbrido)",
     descripcion: "Como Jefe de Proyecto y Desarrollador Full-Stack, supervisé y coordiné el desarrollo de dos proyectos tecnológicos, asegurando el cumplimiento de los objetivos y plazos. Gestioné y mantuve la documentación técnica para facilitar la comunicación entre los equipos. Lideré y guié al equipo de desarrollo, promoviendo buenas prácticas y metodologías ágiles como Scrum para mejorar la eficiencia del flujo de trabajo. Desarrollé y mantuve funcionalidades tanto en el backend como en el frontend utilizando PHP, Composer y PHPMyAdmin. También administré bases de datos MySQL, optimizando consultas y garantizando la integridad de los datos. Además, participé en la creación de soluciones en HTML, CSS y JavaScript, asegurando una mejor experiencia de usuario. Para garantizar la estabilidad del sistema, desarrollé unidades de prueba y realicé depuración de código. Por último, colaboré en la estrategia de ventas y marketing técnico, simulando escenarios de negocio reales.",
     responsabilidades: [
       "Supervisar y coordinar el desarrollo de dos proyectos tecnológicos, asegurando el cumplimiento de los objetivos y plazos establecidos.",
@@ -39,9 +39,9 @@ export const experiencia = [
     titulo: "Documentador de Software",
     empresa: "Start-Up TI Simulada",
     institucion: "Escuela Técnica N°29 D.E.06 'Reconquista de Buenos Aires'",
-    tipoContrato: "Contrato de formación",
+    tipoContrato: "Formación",
     periodo: "marzo 2021",
-    ubicacion: "Provincia de Buenos Aires, Argentina (Híbrido)",
+    ubicacion: "CABA, Argentina (Híbrido)",
     descripcion: "En mi rol de Documentador de Software, fui responsable de redactar documentación técnica clara y estructurada para describir el funcionamiento del software. Mantuve actualizada la documentación para reflejar nuevas funcionalidades y cambios en el sistema. Trabajé en conjunto con desarrolladores y equipos de QA para comprender el software y garantizar la precisión de la documentación. Elaboré manuales de usuario y guías de instalación para facilitar el uso de las herramientas desarrolladas. También organicé la documentación de manera accesible y comprensible, revisando y editando los textos para garantizar coherencia, precisión y claridad. Además, brindé soporte a los usuarios y miembros del equipo en cuestiones relacionadas con la documentación técnica.",
     responsabilidades: [
       "Redactar documentación técnica clara y estructurada para describir el funcionamiento del software.",
